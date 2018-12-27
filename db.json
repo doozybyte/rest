@@ -1,0 +1,46 @@
+{  
+   "core":{  
+      "v1":{  
+         "activities":{  
+            "items":[  
+               {  
+                  "activityId":"1",
+                  "resourceId":"r1",
+                  "timeSlot":"",
+                  "date":"2018-12-16",
+                  "status":"pending"
+               },
+               {  
+                  "activityId":"2",
+                  "resourceId":"r1",
+                  "timeSlot":"",
+                  "date":"2018-12-16",
+                  "status":"pending"
+               }
+            ]
+         },
+         "resources":{  
+            "r1":{  
+               "routes":{  
+                  "2018-12-16":{  
+                     "items":[  
+                        {  
+                           "activityId":1,
+                           "resourceId":"r1",
+                           "xa_desc":"description laurem ipsum",
+                           "latitude":34.876,
+                           "longitude":150.876
+                        },
+                        {  
+                           "activityId":2,
+                           "resourceId":"r2",
+                           "xa_desc":11
+                        }
+                     ]
+                  }
+               }
+            }
+         }
+      }
+   }
+}
